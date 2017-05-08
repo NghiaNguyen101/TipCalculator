@@ -1,4 +1,4 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *Tip Calculator*
 
 **Name of your app** is a tip calculator application for iOS.
 
@@ -23,9 +23,6 @@ The following **additional** features are implemented:
 
 - [x] Add slider to calculate the average for party of N people
 
-Bugs:
-- Can't see the number for bill when first enter, maybe the focusing when first open app.
-
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
@@ -36,7 +33,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Bugs:
+- Can't see the number for bill when first enter, maybe the focusing when first open app.
 
 ## License
 
