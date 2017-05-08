@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate, SetDefaultTipPercen
        
         defaultTipIndex = userDefault.integer(forKey: "defaultP")
         self.tipPercentSegment.selectedSegmentIndex = defaultTipIndex
-        
+        self.billTextField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,8 +52,6 @@ class ViewController: UIViewController, UITextFieldDelegate, SetDefaultTipPercen
     }
     
     @IBAction func billOnChange(_ sender: Any) {
-        
-        
         let p = tipPercentage[ tipPercentSegment.selectedSegmentIndex]
         let bill = Double(billTextField.text!) ?? 0
         let tip = bill * p
