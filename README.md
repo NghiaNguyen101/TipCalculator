@@ -23,11 +23,14 @@ The following **additional** features are implemented:
 
 - [x] Add slider to calculate the average for party of N people
 
+Bugs:
+- Can't see the number for bill when first enter, maybe the focusing when first open app.
+
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/NghiaNguyen101/TipCalculator/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
